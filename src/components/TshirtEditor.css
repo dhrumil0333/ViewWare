@@ -1,0 +1,45 @@
+
+
+/* Editor Container */
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #faf9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* File Upload */
+input[type="file"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Apply Button */
+.editor-button {
+    background-color: #7a57d1;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+.editor-button:hover {
+    background-color: #573ab5;
+}
+
+/* T-shirt Editor Canvas */
+.canvas-stage {
+    margin-top: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #e0d8f6;
+}

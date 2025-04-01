@@ -1,0 +1,154 @@
+
+
+.product121-product{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product121-card{
+   width: 24.6vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 30px;
+}
+
+.containerProduct{
+  width: 100vw;
+}
+.product-page {
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .product-title {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .product-price {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .stock-info {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .size-selector, .color-selector, .quantity-selector {
+    margin-top: 15px;
+    display: flex;
+    justify-content: start;
+
+  }
+  
+  .size-button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: 1px solid #333;
+    background: white;
+    cursor: pointer;
+  }
+  
+  .size-button.active {
+    background: black;
+    color: white;
+  }
+  
+  .color-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 2px solid transparent;
+    cursor: pointer;
+  }
+  
+  .color-button.selected {
+    border-color: black;
+  }
+  
+  .quantity-selector {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-button {
+    padding: 5px 10px;
+    border: 1px solid #333;
+    background: white;
+    cursor: pointer;
+  }
+  
+  .quantity-value {
+    margin: 0 10px;
+  }
+  
+  .add-to-cart {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    height: 50px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .add-to-cart:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 10px 30px -10px black;
+    transition: all ease 0.4s;
+  }
+
+
+  .img1 img{
+    width: 500px;
+    height: 600px;
+    border-radius: 40px;
+  }
+
+  .product-page{
+    display: flex;
+    width: 1200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-2{
+      width: 500px;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 10px 30px -10px black;
+      border-radius: 40px;
+    }
+    
+    .box-2 .line1{
+    /* border: 2px solid red; */
+    height: 1px;
+    width: 450px;
+    margin: 10px;
+    background-color: gray;
+}
+
+.product-container h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
